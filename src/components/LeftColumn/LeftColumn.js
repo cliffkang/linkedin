@@ -4,7 +4,7 @@ function LeftColumn(props) {
   return (
     <div>
       <div className='top'>
-        <h3 className="numConnections">{}</h3>
+        <h3 className="numConnections">1157</h3>
         <h4>Your connections</h4>
         <a href="https://www.linkedin.com/mynetwork/invite-connect/connections/">See all</a>
         <div>
@@ -17,7 +17,8 @@ function LeftColumn(props) {
       <div className='mid'>
         <h3>Add personal contact</h3>
         <input />
-        <button 'https://www.linkedin.com/mynetwork/import-contacts/results/?isOrganic=true&transactionId=FyNYo7SfRoyin9bsQOCdOQ%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3Brtsr9h8xQSqbSqKCFYIQMg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people-wylo_get_started'/>
+        {/*'https://www.linkedin.com/mynetwork/import-contacts/results/?isOrganic=true&transactionId=FyNYo7SfRoyin9bsQOCdOQ%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3Brtsr9h8xQSqbSqKCFYIQMg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people-wylo_get_started'*/}
+        <button />
         <a href='https://www.linkedin.com/mynetwork/import-contacts/?transactionId=FyNYo7SfRoyin9bsQOCdOQ%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3Brtsr9h8xQSqbSqKCFYIQMg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people-more_options'>More options</a>
       </div>
       <div>

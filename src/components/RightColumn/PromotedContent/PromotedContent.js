@@ -4,7 +4,7 @@ import right from './rightArrow.png';
 function PromotedContent() {
   return(
     <div>
-      <img src={} alt='icon' />
+      <img alt='icon' />
       <div>
         <h4>{}</h4>
         <p>{}</p>
