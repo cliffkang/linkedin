@@ -1,4 +1,43 @@
+import home from './assets/Home.png';
+import jobs from './assets/Jobs.png';
+import message from './assets/Messaging.png';
+import network from './assets/My Network.png';
+import notifications from './assets/Notifications.png';
+import me from './assets/Me.png';
+
 const dummyData = {
+  nav: [
+    {
+      icon: {home},
+      title: 'Home',
+      link: 'https://www.linkedin.com/feed/',
+    },
+    {
+      icon: {network},
+      title: 'My Network',
+      link: 'https://www.linkedin.com/mynetwork/',
+    },
+    {
+      icon: {jobs},
+      title: 'Jobs',
+      link: 'https://www.linkedin.com/jobs/',
+    },
+    {
+      icon: {message},
+      title: 'Messaging',
+      link: 'https://www.linkedin.com/messaging/',
+    },
+    {
+      icon: {notifications},
+      title: 'Notifications',
+      link: 'https://www.linkedin.com/notifications/',
+    },
+    {
+      icon: {me},
+      title: 'Me v',
+      link: 'https://www.linkedin.com/in/cliff-kang-70bb6011/',
+    },
+  ],
   profile: [
     {
       imageUrl: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA0gAAAAJDZiNWQzMWY5LTAyMmUtNDExNi04MjBiLWFkOTM3NjhiYjQ5MQ.jpg',
@@ -85,5 +124,5 @@ const dummyData = {
       numMutual: 3,
     },
   ],
-  
+
 }
