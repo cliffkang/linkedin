@@ -124,5 +124,21 @@ const dummyData = {
       numMutual: 3,
     },
   ],
-
-}
+  promoted: [
+    {
+      iconUrl: 'https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAEAAQAAAAAAAA2ZAAAAJDRiODRkY2EzLWRkMDctNDc1My05Zjg5LWVjNTY4YWVlYmZlZg.png',
+      title: 'MBA. ASAP.',
+      text: 'Discover the Johnson One-Year MBA. Check your eligibility.',
+    },
+    {
+      iconUrl: 'https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAEAAQAAAAAAAAdCAAAAJGYzOGRkNzdkLTM3MzAtNDM0ZC1hNGM1LWJhMzRmYWQ1NDczMg.jpg',
+      title: 'Fitness Center Management',
+      text: 'Elite Fitness Professionals. Profitable Operations. High member utilization',
+    },
+    {
+      iconUrl: 'https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAMAAQDGAAwAAQAAAAAAAAzRAAAAJDNhODQ0NjJmLWYzYzAtNGIzOC04YWQ3LWE1NWE5ZjFlNDM2Nw.png',
+      title: 'W&M: Online MBA Brochure',
+      text: 'Of W&M respondents are likely to recommend the online program to a friend.*',
+    },
+  ],
+};

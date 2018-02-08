@@ -1,5 +1,6 @@
 import React from 'react';
 import PromotedContent from './PromotedContent/PromotedContent';
+import icon from './linkedin.png';
 
 function RightColumn(props) {
   return(
@@ -18,8 +19,8 @@ function RightColumn(props) {
           <a href=''>Get the LinkedIn app</a>
           <a href=''>More</a>
         </div>
-        <img alt='lettering and logo' />
-        <p className='copyright'>LinkedIn Corporation C 2018</p>
+        <img src={icon} alt='lettering and logo' />
+        <p className='copyright'>LinkedIn Corporation &copy; 2018</p>
       </div>
     </div>
   )
