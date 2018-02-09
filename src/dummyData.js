@@ -8,32 +8,32 @@ import me from './assets/Me.png';
 const dummyData = {
   nav: [
     {
-      icon: {home},
+      icon: home,
       title: 'Home',
       link: 'https://www.linkedin.com/feed/',
     },
     {
-      icon: {network},
+      icon: network,
       title: 'My Network',
       link: 'https://www.linkedin.com/mynetwork/',
     },
     {
-      icon: {jobs},
+      icon: jobs,
       title: 'Jobs',
       link: 'https://www.linkedin.com/jobs/',
     },
     {
-      icon: {message},
+      icon: message,
       title: 'Messaging',
       link: 'https://www.linkedin.com/messaging/',
     },
     {
-      icon: {notifications},
+      icon: notifications,
       title: 'Notifications',
       link: 'https://www.linkedin.com/notifications/',
     },
     {
-      icon: {me},
+      icon: me,
       title: 'Me v',
       link: 'https://www.linkedin.com/in/cliff-kang-70bb6011/',
     },
@@ -142,3 +142,5 @@ const dummyData = {
     },
   ],
 };
+
+export default dummyData;

@@ -11,11 +11,11 @@ function RightColumn(props) {
       </div>
       <div className='footer'>
         <div>
-          <a href=''>About</a>
-          <a href=''>Help Center</a>
-          <a href=''>Privacy & Terms</a>
-          <a href=''>Advertising</a>
-          <a href=''>Business Services</a>
+          <a href='https://www.linkedin.com/about-us?lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3Brtsr9h8xQSqbSqKCFYIQMg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people-rightfooter.about'>About</a>
+          <a href='https://www.linkedin.com/help/linkedin?trk=d_flagship3_people&lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3Brtsr9h8xQSqbSqKCFYIQMg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people-rightfooter.help'>Help Center</a>
+          <a href='https://www.linkedin.com/static?key=privacy_policy&lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3Brtsr9h8xQSqbSqKCFYIQMg%3D%3D'>Privacy & Terms</a>
+          <a href='https://www.linkedin.com/ad/start?trk=n_nav_ads_rr&lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3Brtsr9h8xQSqbSqKCFYIQMg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people-rightfooter.advertising'>Advertising</a>
+          <a href='https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-header-dropdown-lts-control&src=li-nav&lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3Brtsr9h8xQSqbSqKCFYIQMg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people-.business_talent_solutions'>Business Services</a>
           <a href=''>Get the LinkedIn app</a>
           <a href=''>More</a>
         </div>
