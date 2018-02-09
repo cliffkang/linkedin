@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import dummyData from './dummyData';
-// import styled from 'styled-components';
 import Heading from './components/Heading/Heading.js';
 import LeftColumn from './components/LeftColumn/LeftColumn.js';
 import CenterColumn from './components/CenterColumn/CenterColumn.js';
@@ -9,32 +8,37 @@ import RightColumn from './components/RightColumn/RightColumn.js';
 import ellipsis from './assets/ellipsis.png';
 import icon from './assets/icon.png';
 import work from './assets/Work.png';
+import AppStyled from './AppStyled';
 
 class App extends Component {
   state=dummyData;
 
   render() {
     return (
-      <div className="App">
+      <AppStyled>
         <div className="Heading">
-          <img src={icon} alt="LinkedIn logo" />
-          <input />
-          {
-            this.state.nav.map(nav => {
-              return(<Heading 
-                nav={nav}
-              />);
-            })
-          }
-          <div className="workIcon">
-            <div>
-              <a href="">
-                <img className="icon" src={work} alt="corresponding icon" />
-                <p className="navText">Work v</p>
-              </a>
-            </div>
-            <p>Free Upgrade to Premium</p>
-          </div> {/* workIcon */}
+          <div>
+            <img src={icon} alt="LinkedIn logo" />
+            <input type='text' placeholder='Search' />
+            <ul>
+              {
+                this.state.nav.map(nav => {
+                  return(<Heading 
+                    nav={nav}
+                  />);
+                })
+              }
+            </ul>
+            <div className="workIcon">
+              <div>
+                <a href="">
+                  <img className="icon" src={work} alt="corresponding icon" />
+                  <p className="navText">Work v</p>
+                </a>
+              </div>
+              <p>Free Upgrade to Premium</p>
+            </div> {/* workIcon */}
+          </div>
         </div> {/* Heading */}
 
         <div className="Ad">
@@ -51,7 +55,7 @@ class App extends Component {
             ad={this.state.promoted}  
           />
         </div>
-      </div>
+      </AppStyled>
     );
   }
 }
