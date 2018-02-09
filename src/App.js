@@ -47,7 +47,9 @@ class App extends Component {
           <CenterColumn 
             profile={this.state.profile}
           />
-          <RightColumn />
+          <RightColumn 
+            ad={this.state.promoted}  
+          />
         </div>
       </div>
     );

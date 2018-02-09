@@ -7,7 +7,13 @@ function RightColumn(props) {
     <div>
       <h4>Promoted</h4>
       <div className='promotedItems'>
-        <PromotedContent />
+        {
+          props.ad.map(ad => {
+            return <PromotedContent 
+              ad = {ad}
+            />
+          })
+        }
       </div>
       <div className='footer'>
         <div>
