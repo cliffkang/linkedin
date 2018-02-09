@@ -1,8 +1,9 @@
 import React from 'react';
+import LeftStyled from '../../styled-components/LeftStyled';
 
 function LeftColumn(props) {
   return (
-    <div>
+    <LeftStyled>
       <div className='top'>
         <h3 className="numConnections">1157</h3>
         <h4>Your connections</h4>
@@ -21,11 +22,11 @@ function LeftColumn(props) {
         <button />
         <a href='https://www.linkedin.com/mynetwork/import-contacts/?transactionId=FyNYo7SfRoyin9bsQOCdOQ%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_people%3Brtsr9h8xQSqbSqKCFYIQMg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_people-more_options'>More options</a>
       </div>
-      <div>
+      <div className='bottom'>
         <p>We'll import your address book to 
           suggest connections. Learn more</p>
       </div>
-    </div>
+    </LeftStyled>
   )
 }
 

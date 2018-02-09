@@ -47,8 +47,8 @@ const AppStyled = styled.div`
               color: white;
             }
           }
-        }
-      } {/* ul */}
+        } 
+      } /* ul */
       .workIcon {
         div {
           min-width: 80px;
@@ -78,9 +78,9 @@ const AppStyled = styled.div`
           width: 100px;
           margin: auto 0;
         }
-      }
-    }
-  }
+      } /* workIcon */
+    } /* div */
+  } /* .Heading */
   background-color: #F5F5F5;
   .Ad {
     margin: 16px 0;
@@ -97,11 +97,12 @@ const AppStyled = styled.div`
       height: 16px;
       width: 20px;
     }
-  }
+  } /* .Ad */
 
   .main {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 `
 

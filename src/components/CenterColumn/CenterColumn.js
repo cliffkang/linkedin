@@ -1,9 +1,10 @@
 import React from 'react';
 import ProfilePreview from './ProfilePreview/ProfilePreview.js';
+import CenterStyled from '../../styled-components/CenterStyled';
 
 function CenterColumn(props) {
   return(
-    <div>
+    <CenterStyled>
       <div className='invitations'>
         <h3>No pending invitations</h3>
         <p>Manage All</p>
@@ -20,7 +21,7 @@ function CenterColumn(props) {
           }
         </div>
       </div>
-    </div>
+    </CenterStyled>
   )
 }
 

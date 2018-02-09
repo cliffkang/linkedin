@@ -1,10 +1,11 @@
 import React from 'react';
 import PromotedContent from './PromotedContent/PromotedContent';
 import icon from './linkedin.png';
+import RightStyled from '../../styled-components/RightStyled';
 
 function RightColumn(props) {
   return(
-    <div>
+    <RightStyled>
       <h4>Promoted</h4>
       <div className='promotedItems'>
         {
@@ -28,7 +29,7 @@ function RightColumn(props) {
         <img src={icon} alt='lettering and logo' />
         <p className='copyright'>LinkedIn Corporation &copy; 2018</p>
       </div>
-    </div>
+    </RightStyled>
   )
 }
 
