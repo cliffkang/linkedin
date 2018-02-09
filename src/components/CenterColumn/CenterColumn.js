@@ -11,7 +11,13 @@ function CenterColumn(props) {
       <div className='youMayKnow'>
         <h3>People you may know</h3>
         <div className='profiles'>
-          <ProfilePreview />
+          {
+            props.profile.map(profile => {
+              return <ProfilePreview 
+                profile={profile}
+              />
+            })
+          }
         </div>
       </div>
     </div>
